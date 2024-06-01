@@ -1,0 +1,42 @@
+{
+    "title": "new_account_form",
+    "type": "object",
+    "version": 6,
+    "customerType": "INDIVIDUAL",
+    "applicants": [
+        {
+            "identity": {
+                "name": {
+                    "givenName": "John",
+                    "familyName": "Doe"
+                },
+                "dateOfBirth": "1980-01-01",
+                "citizenshipCountry": "USA"
+            },
+            "contact": {
+                "homeAddress": {
+                    "streetAddress": ["123 Main St"],
+                    "city": "Springfield",
+                    "country": "USA"
+                },
+                "phoneNumbers": [
+                    {
+                        "phoneNumber": "555-123-4567",
+                        "phoneNumberType": "HOME"
+                    }
+                ]
+            },
+            "disclosures": {
+                "isPoliticallyExposed": "NO",
+                "isControlPerson": "NO"
+            }
+        }
+    ],
+    "applicantSignature": {
+        "eSigned": "YES"
+    },
+    "principalApprover": {
+        "approverName": "Jane Smith"
+    },
+    "accountType": "CASH"
+}
